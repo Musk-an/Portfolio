@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background: linear-gradient(120deg, #9997a1, #030303);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero .highlight {
+    color: #cea8ec;
+    font-weight: bold;
+  }
+  
+  .hero .btn {
+    background: white;
+    color: #6c5ce7;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background: #6c5ce7;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #6c5ce7;
+  }
+  
+  .about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-section {
+    padding: 50px 20px;
+    background: #f1f2f6;
+    text-align: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 150px;
+  }
+  
+  .projects-section {
+    padding: 50px 20px;
+    background: white;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #343a40;
+    color: white;
+    margin-top: 20px;
+  }
+  footer a {
+    color: #ff7675;
+    text-decoration: none;
+  }
+  
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.download-btn {
+    background: #6c5ce7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+.download-btn:hover {
+    background: #4b3cc4;
+}
